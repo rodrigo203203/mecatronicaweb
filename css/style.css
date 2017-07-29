@@ -2037,7 +2037,7 @@ ul.contact li a:hover {
 /* Header                                                                        */
 /*********************************************************************************/
 #video {
-    width: auto;
+    width: 100%;
     height: auto;
     position: fixed;
     top: 50%;
