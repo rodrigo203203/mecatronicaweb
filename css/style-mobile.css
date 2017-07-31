@@ -39,9 +39,9 @@ article:first-child {
     margin-top: 0 !important;
 }
 
-.container {
-    padding: 0em 1em;
-}
+/*<!.container {*/
+    /*padding: 0em 1em;*/
+/*}*/
 
 hr {
     margin: 3em 0 0 0;
@@ -187,6 +187,7 @@ header .byline {
 /*********************************************************************************/
 
 #logo {
+    display: none;
     display: none;
 }
 

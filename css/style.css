@@ -98,15 +98,27 @@ p, ul, ol, dl, table {
 }
 
 /*cambio que se hicieron*/
-header1 {
+#header1 {
     margin-bottom: 1.6em;
 }
+#header1-background{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-attachment: fixed;
+    background-size: cover;
+    background: url(../images/header.jpg);
+}
 
-header1 h2 {
+#header1 h2 {
 
 }
 
-header1 .byline {
+#header1 .byline {
     display: block;
     margin: 1.5em 0 0 0;
     padding: 0 0 0.5em 0;
@@ -2111,7 +2123,31 @@ ul.contact li a:hover {
     font-size: 1.4em;
     color: #FFF;
 }
+#logo1 {
+    /*position: relative;*/
+    z-index: -1;
+    background: url(../images/header.jpg);
+}
 
+#logo1 h1 {
+    color: #FFF;
+}
+
+#logo1 a {
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 7em;
+    color: #FFF;
+    letter-spacing: -0.05em;
+    margin: 0 0 0.125em 0;
+}
+
+#logo1 span {
+    font-size: 1.4em;
+    color: #FFF;
+}
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
