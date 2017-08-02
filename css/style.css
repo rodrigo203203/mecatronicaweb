@@ -277,7 +277,7 @@ ul.style .first {
     text-decoration: none !important;
     font-size: 1.2em;
     font-weight: 300;
-    color: #FFF !important;
+    /*color: #FFF !important;*/
     -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
@@ -285,13 +285,36 @@ ul.style .first {
     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     text-align: center;
     border-radius: 0.25em;
+
+}
+.button1 {
+    position: relative;
+    display: inline-block;
+    background: #80BA8E;
+    padding: 0.8em 2em;
+    text-decoration: none !important;
+    font-size: 1.2em;
+    font-weight: 300;
+    /*color: #FFF !important;*/
+    -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    text-align: center;
+    border-radius: 0.25em;
+
 }
 
 .button:hover {
-    background: #70AA7E;
-    color: #FFF !important;
-}
+    /*color: #FFF !important;*/
 
+}
+.button1:hover {
+    /*color: #FFF !important;*/
+    background: darkblue!important;
+    color:white!important;
+}
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
@@ -2199,7 +2222,12 @@ ul.contact li a:hover {
 #nav > ul > li > ul {
     display: none;
 }
-
+/*noticias*/
+#owl-itemactive{
+    width: 25%;
+    height: 40%;
+    background: aqua;
+}
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
