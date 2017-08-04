@@ -315,6 +315,92 @@ ul.style .first {
     background: darkblue!important;
     color:white!important;
 }
+/*slider*/
+/*.slider{*/
+    /*width: 100%;*/
+    /*margin: 50px;*/
+    /*overflow: hidden;*/
+    /*align-content: center;*/
+/*}*/
+/*.slider ul {*/
+    /*display: flex;*/
+    /*padding: 0;*/
+    /*width: 400%;*/
+    /*animation: cambio 20s infinite;*/
+    /*animation-direction: alternate;*/
+    /*align-content: center;*/
+
+/*}*/
+/*.slider li {*/
+    /*align-content: center;*/
+    /*width: 100%;*/
+    /*list-style: nome;*/
+    /*object-position: center;*/
+/*}*/
+
+/*}*/
+/*.slider image{*/
+    /*width: 100%;*/
+    /*z-index: -100;*/
+/*}*/
+/*@keyframes cambio {*/
+    /*0%{ margin-left: 0;}*/
+    /*20%{ margin-left: 0;}*/
+    /*25%{ margin-left: -100%;}*/
+    /*45%{ margin-left:-100% ;}*/
+    /*50%{ margin-left: -200%;}*/
+    /*70%{ margin-left: -200%;}*/
+    /*75%{ margin-left: -300%;}*/
+    /*100%{ margin-left: -300%;}*/
+/*}*/
+/*art*/
+#art{
+    background: red;
+    height: 350px;
+    width: 100%;
+}
+#art img{
+    min-height: 100%;
+    min-width: 50%;
+    width: 65%;
+}
+#art span{
+    font-size: 30px;
+    line-height: 300px;
+    margin-left: 300px;
+
+}
+#art ul{
+    /*line-height: 150px;*/
+    /*margin-left: 100px;*/
+    /*align-content: center;*/
+    /*padding: 0;*/
+}
+#art li{
+    font-size: 30px;
+
+}
+#art  button {
+
+    font-size: 30px;
+    /*width: -15px;*/
+    /*height: 10px;*/
+    /*margin-top: 50px;*/
+    /*margin-left: 10px;*/
+    border-style: solid;
+    border-color: #434343;
+    background-color: #dddddd;
+    border-width: 0.5px;
+    color:black;
+}
+#foto{
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+    background-size: cover;
+}
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
