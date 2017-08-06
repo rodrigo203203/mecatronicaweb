@@ -101,7 +101,8 @@ p, ul, ol, dl, table {
 #header1 {
     margin-bottom: 1.6em;
 }
-#header1-background{
+
+#header1-background {
     width: 100%;
     height: auto;
     position: fixed;
@@ -270,24 +271,25 @@ ul.style .first {
 /* Buttons */
 
 .button {
-     position: relative;
-     display: inline-block;
-     background: black;
-     color: white;
-     padding: 0.8em 2em;
-     text-decoration: none !important;
-     font-size: 1.2em;
-     font-weight: 300;
-     /*color: #FFF !important;*/
-     -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-     -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-     -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-     -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-     text-align: center;
-     border-radius: 0.25em;
+    position: relative;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 0.8em 2em;
+    text-decoration: none !important;
+    font-size: 1.2em;
+    font-weight: 300;
+    /*color: #FFF !important;*/
+    -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    text-align: center;
+    border-radius: 0.25em;
 
- }
+}
+
 .button2 {
     position: relative;
     display: inline-block;
@@ -307,6 +309,7 @@ ul.style .first {
     color: white;
 
 }
+
 .button1 {
     position: relative;
     display: inline-block;
@@ -328,7 +331,7 @@ ul.style .first {
     border-color: black;
     color: darkblue;
     text-align: justify;
-    transform:translateY(-20%);
+    transform: translateY(-20%);
 }
 
 .button:hover {
@@ -338,130 +341,143 @@ ul.style .first {
 
 .button1:hover {
     /*color: #FFF !important;*/
-    background: royalblue!important;
-    color:white!important;
+    background: royalblue !important;
+    color: white !important;
 }
+
 /*slider*/
 /*.slider{*/
-    /*overflow: hidden;*/
-    /*height: 500px;*/
+/*overflow: hidden;*/
+/*height: 500px;*/
 /*}*/
 /*.slider ul {*/
-    /*display: flex;*/
-    /*padding: 0;*/
+/*display: flex;*/
+/*padding: 0;*/
 
-    /*animation: cambio 20s infinite;*/
-    /*animation-direction: alternate;*/
-    /*align-content: center;*/
+/*animation: cambio 20s infinite;*/
+/*animation-direction: alternate;*/
+/*align-content: center;*/
 
 /*}*/
 /*.slider li {*/
-    /*width: auto;*/
-    /*list-style: nome;*/
-    /*height: auto;*/
+/*width: auto;*/
+/*list-style: nome;*/
+/*height: auto;*/
 /*}*/
-
 
 /*@keyframes cambio {*/
-    /*0%{ margin-left: 0;}*/
-    /*20%{ margin-left: 0;}*/
-    /*25%{ margin-left: -100%;}*/
-    /*45%{ margin-left:-100% ;}*/
-    /*50%{ margin-left: -200%;}*/
-    /*70%{ margin-left: -200%;}*/
-    /*75%{ margin-left: -300%;}*/
-    /*100%{ margin-left: -300%;}*/
+/*0%{ margin-left: 0;}*/
+/*20%{ margin-left: 0;}*/
+/*25%{ margin-left: -100%;}*/
+/*45%{ margin-left:-100% ;}*/
+/*50%{ margin-left: -200%;}*/
+/*70%{ margin-left: -200%;}*/
+/*75%{ margin-left: -300%;}*/
+/*100%{ margin-left: -300%;}*/
 /*}*/
-.slider{
+.slider {
     overflow: hidden;
 }
-.slider img{
+
+.slider img {
     overflow: hidden;
     height: 100%;
     width: 100%;
 }
+
 /*art*/
-#art{
+#art {
     background: white;
     height: 350px;
     width: 100%;
 }
-#art1{
+
+#art1 {
     background: white;
     height: 350px;
     width: 100%;
 }
-#caja1{
+
+#caja1 {
     width: 55%;
     height: 100%;
 }
-#caja2{
+
+#caja2 {
     width: 45%;
     height: 100%;
     font-family: "Raleway", sans-serif !important;
     font-size: 50px;
 }
-#caja2 button{
+
+#caja2 button {
     height: auto;
     font-size: 25px;
     top: -50px;
 
 }
-#caja4{
+
+#caja4 {
     width: 55%;
     height: 100%;
     float: left;
 }
-#caja3{
+
+#caja3 {
     width: 45%;
     height: 100%;
     font-family: "Raleway", sans-serif !important;
     font-size: 50px;
     float: right !important;
 }
-#caja3 button{
+
+#caja3 button {
     height: auto;
     font-size: 25px;
     top: -50px;
     float: right !important;
 }
-#content1{
+
+#content1 {
     width: auto;
     height: auto;
     padding-top: 20px;
     padding-left: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    text-align:center ;
+    text-align: center;
 
 }
-#content1 h2{
+
+#content1 h2 {
     font-size: 65px;
 }
-.container1 image{
+
+.container1 image {
     width: 100%;
     height: auto;
 
 }
+
 /*#art li{*/
-    /*font-size: 30px;*/
+/*font-size: 30px;*/
 
 /*}*/
 /*#art  button {*/
 
-    /*font-size: 30px;*/
-    /*color:black;*/
-    /*width: auto;*/
-    /*height: auto;*/
-    /*margin-top: 50px;*/
-    /*margin-left: 10px;*/
-    /*border-style: solid;*/
-    /*border-color: #434343;*/
-    /*background-color: #dddddd;*/
-    /*border-width: 0.5px;*/
+/*font-size: 30px;*/
+/*color:black;*/
+/*width: auto;*/
+/*height: auto;*/
+/*margin-top: 50px;*/
+/*margin-left: 10px;*/
+/*border-style: solid;*/
+/*border-color: #434343;*/
+/*background-color: #dddddd;*/
+/*border-width: 0.5px;*/
 
 /*}*/
-#foto{
+#foto {
     width: 100%;
     height: 500px;
     z-index: -10;
@@ -469,12 +485,13 @@ ul.style .first {
     position: fixed;
     background-size: cover;
 }
+
 #center {
     position: absolute;
-    top:-40%;
-    left:55%;
-    right:0;
-    bottom:0;
+    top: -40%;
+    left: 55%;
+    right: 0;
+    bottom: 0;
     margin: auto;
     /*border-style: hidden;*/
     /*background-color: red;*/
@@ -484,12 +501,13 @@ ul.style .first {
     text-align: center;
     /*box-shadow: 0 0 4px rgba(0,0,0,.3);*/
 }
+
 #center1 {
     position: absolute;
-    top:15%;
-    left:0;
-    right:45%;
-    bottom:0;
+    top: 15%;
+    left: 0;
+    right: 45%;
+    bottom: 0;
     margin: auto;
     /*border-style: hidden;*/
     /*background-color: red;*/
@@ -500,6 +518,7 @@ ul.style .first {
     font-size: 60px;
     /*box-shadow: 0 0 4px rgba(0,0,0,.3);*/
 }
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
@@ -2331,6 +2350,7 @@ ul.contact li a:hover {
     font-size: 1.4em;
     color: #FFF;
 }
+
 #logo1 {
     /*position: relative;*/
     z-index: -1;
@@ -2356,6 +2376,7 @@ ul.contact li a:hover {
     font-size: 1.4em;
     color: #FFF;
 }
+
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
@@ -2407,12 +2428,14 @@ ul.contact li a:hover {
 #nav > ul > li > ul {
     display: none;
 }
+
 /*noticias*/
-#owl-itemactive{
+#owl-itemactive {
     width: 25%;
     height: 40%;
     background: aqua;
 }
+
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
@@ -2540,4 +2563,79 @@ ul.contact li a:hover {
     margin: 0;
     font-weight: 300;
     color: rgba(255, 255, 255, .6);
+}
+
+@keyframes slidy {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, figure {
+    margin: 0;
+    background: #101010;
+    font-family: Istok Web, sans-serif;
+    font-weight: 100;
+}
+
+div#captioned-gallery {
+    width: 100%;
+    overflow: hidden;
+}
+
+figure.slider {
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+figure.slider figure {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+
+figure.slider img {
+    width: 100%;
+    height: auto;
+}
+
+figure.slider figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    padding: .6rem;
 }
