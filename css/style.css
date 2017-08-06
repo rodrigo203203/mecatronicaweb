@@ -270,9 +270,28 @@ ul.style .first {
 /* Buttons */
 
 .button {
+     position: relative;
+     display: inline-block;
+     background: black;
+     color: white;
+     padding: 0.8em 2em;
+     text-decoration: none !important;
+     font-size: 1.2em;
+     font-weight: 300;
+     /*color: #FFF !important;*/
+     -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+     -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+     -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+     -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+     text-align: center;
+     border-radius: 0.25em;
+
+ }
+.button2 {
     position: relative;
     display: inline-block;
-    background: #80BA8E;
+    background: black;
     padding: 0.8em 2em;
     text-decoration: none !important;
     font-size: 1.2em;
@@ -285,12 +304,12 @@ ul.style .first {
     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     text-align: center;
     border-radius: 0.25em;
+    color: white;
 
 }
 .button1 {
     position: relative;
     display: inline-block;
-    background: #80BA8E;
     padding: 0.8em 2em;
     text-decoration: none !important;
     font-size: 1.2em;
@@ -301,48 +320,48 @@ ul.style .first {
     -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
     transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-    text-align: center;
     border-radius: 0.25em;
-
+    height: 70%;
+    width: 80%;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    color: darkblue;
+    text-align: justify;
+    transform:translateY(-20%);
 }
 
 .button:hover {
-    /*color: #FFF !important;*/
-
+    color: black !important;
+    background-color: #dddddd !important;
 }
+
 .button1:hover {
     /*color: #FFF !important;*/
-    background: darkblue!important;
+    background: royalblue!important;
     color:white!important;
 }
 /*slider*/
 /*.slider{*/
-    /*width: 100%;*/
-    /*margin: 50px;*/
     /*overflow: hidden;*/
-    /*align-content: center;*/
+    /*height: 500px;*/
 /*}*/
 /*.slider ul {*/
     /*display: flex;*/
     /*padding: 0;*/
-    /*width: 400%;*/
+
     /*animation: cambio 20s infinite;*/
     /*animation-direction: alternate;*/
     /*align-content: center;*/
 
 /*}*/
 /*.slider li {*/
-    /*align-content: center;*/
-    /*width: 100%;*/
+    /*width: auto;*/
     /*list-style: nome;*/
-    /*object-position: center;*/
+    /*height: auto;*/
 /*}*/
 
-/*}*/
-/*.slider image{*/
-    /*width: 100%;*/
-    /*z-index: -100;*/
-/*}*/
+
 /*@keyframes cambio {*/
     /*0%{ margin-left: 0;}*/
     /*20%{ margin-left: 0;}*/
@@ -353,53 +372,133 @@ ul.style .first {
     /*75%{ margin-left: -300%;}*/
     /*100%{ margin-left: -300%;}*/
 /*}*/
+.slider{
+    overflow: hidden;
+}
+.slider img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
 /*art*/
 #art{
-    background: red;
+    background: white;
     height: 350px;
     width: 100%;
 }
-#art img{
-    min-height: 100%;
-    min-width: 50%;
-    width: 65%;
+#art1{
+    background: white;
+    height: 350px;
+    width: 100%;
 }
-#art span{
-    font-size: 30px;
-    line-height: 300px;
-    margin-left: 300px;
+#caja1{
+    width: 55%;
+    height: 100%;
+}
+#caja2{
+    width: 45%;
+    height: 100%;
+    font-family: "Raleway", sans-serif !important;
+    font-size: 50px;
+}
+#caja2 button{
+    height: auto;
+    font-size: 25px;
+    top: -50px;
 
 }
-#art ul{
-    /*line-height: 150px;*/
-    /*margin-left: 100px;*/
-    /*align-content: center;*/
-    /*padding: 0;*/
+#caja4{
+    width: 55%;
+    height: 100%;
+    float: left;
 }
-#art li{
-    font-size: 30px;
+#caja3{
+    width: 45%;
+    height: 100%;
+    font-family: "Raleway", sans-serif !important;
+    font-size: 50px;
+    float: right !important;
+}
+#caja3 button{
+    height: auto;
+    font-size: 25px;
+    top: -50px;
+    float: right !important;
+}
+#content1{
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:center ;
 
 }
-#art  button {
-
-    font-size: 30px;
-    /*width: -15px;*/
-    /*height: 10px;*/
-    /*margin-top: 50px;*/
-    /*margin-left: 10px;*/
-    border-style: solid;
-    border-color: #434343;
-    background-color: #dddddd;
-    border-width: 0.5px;
-    color:black;
+#content1 h2{
+    font-size: 65px;
 }
-#foto{
+.container1 image{
     width: 100%;
     height: auto;
+
+}
+/*#art li{*/
+    /*font-size: 30px;*/
+
+/*}*/
+/*#art  button {*/
+
+    /*font-size: 30px;*/
+    /*color:black;*/
+    /*width: auto;*/
+    /*height: auto;*/
+    /*margin-top: 50px;*/
+    /*margin-left: 10px;*/
+    /*border-style: solid;*/
+    /*border-color: #434343;*/
+    /*background-color: #dddddd;*/
+    /*border-width: 0.5px;*/
+
+/*}*/
+#foto{
+    width: 100%;
+    height: 500px;
     z-index: -10;
     transform: translateX(-50%) translateY(-50%);
     position: fixed;
     background-size: cover;
+}
+#center {
+    position: absolute;
+    top:-40%;
+    left:55%;
+    right:0;
+    bottom:0;
+    margin: auto;
+    /*border-style: hidden;*/
+    /*background-color: red;*/
+    height: 100px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    /*box-shadow: 0 0 4px rgba(0,0,0,.3);*/
+}
+#center1 {
+    position: absolute;
+    top:15%;
+    left:0;
+    right:45%;
+    bottom:0;
+    margin: auto;
+    /*border-style: hidden;*/
+    /*background-color: red;*/
+    height: 100px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+    /*box-shadow: 0 0 4px rgba(0,0,0,.3);*/
 }
 /*********************************************************************************/
 /* Icons                                                                         */
