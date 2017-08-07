@@ -274,7 +274,6 @@ ul.style .first {
     position: relative;
     display: inline-block;
     background: black;
-    color: white;
     padding: 0.8em 2em;
     text-decoration: none !important;
     font-size: 1.2em;
@@ -335,8 +334,8 @@ ul.style .first {
 }
 
 .button:hover {
-    color: black !important;
-    background-color: #dddddd !important;
+    /*color: black !important;*/
+    /*background-color: #dddddd !important;*/
 }
 
 .button1:hover {
@@ -386,56 +385,66 @@ ul.style .first {
 }
 
 /*art*/
-#art {
+.art {
     background: white;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
-#art1 {
+.art1 {
     background: white;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
-#caja1 {
-    width: 55%;
+.caja1 {
+    width: 65%;
     height: 100%;
 }
 
-#caja2 {
-    width: 45%;
+.caja2 {
+    width: 35%;
     height: 100%;
     font-family: "Raleway", sans-serif !important;
     font-size: 50px;
 }
 
-#caja2 button {
+.caja2 button {
     height: auto;
     font-size: 25px;
     top: -50px;
 
 }
 
-#caja4 {
-    width: 55%;
+.caja4 {
+    width: 43%;
     height: 100%;
     float: left;
+    font-family: "Raleway", sans-serif !important;
+    font-size: 50px;
 }
 
-#caja3 {
-    width: 45%;
+.caja3 {
+    width: 57%;
     height: 100%;
     font-family: "Raleway", sans-serif !important;
     font-size: 50px;
     float: right !important;
 }
 
-#caja3 button {
+.caja3 button {
     height: auto;
     font-size: 25px;
     top: -50px;
     float: right !important;
+}
+
+#caja5 {
+    width: 43%;
+    height: 100%;
+    float: left;
+    font-family: "Raleway", sans-serif !important;
+    font-size: 50px;
 }
 
 #content1 {
@@ -457,6 +466,72 @@ ul.style .first {
     width: 100%;
     height: auto;
 
+}
+
+.calendarioI {
+    width: 500px;
+    height: 175px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 120px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.calendarioI h2 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif !important;
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.calendarioI p {
+    font-family: "Raleway", sans-serif !important;
+    font-size: 20px;
+    /*padding-top: 15px;*/
+    /*text-align: center;*/
+}
+.calendarioI h2:hover{
+
+}
+.calendarioD{
+width: 500px;
+height: 175px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+margin-left: 120px;
+padding-left: 15px;
+padding-top: 15px;
+
+}
+
+.calendarioD h2 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif !important;
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.calendarioD p {
+    font-family: "Raleway", sans-serif !important;
+    font-size: 20px;
+    /*padding-top: 15px;*/
+    /*text-align: center;*/
+}
+
+.span1 {
+    float: left;
+    margin-top: 37px;
+    margin-left: -61px;
+    font-size: 33px;
+}
+
+.span2 {
+    float: left;
+    margin-top: 60px;
+    margin-left: -68px;
 }
 
 /*#art li{*/
@@ -486,7 +561,7 @@ ul.style .first {
     background-size: cover;
 }
 
-#center {
+.center {
     position: absolute;
     top: -40%;
     left: 55%;
@@ -502,7 +577,7 @@ ul.style .first {
     /*box-shadow: 0 0 4px rgba(0,0,0,.3);*/
 }
 
-#center1 {
+.center1 {
     position: absolute;
     top: 15%;
     left: 0;
@@ -2609,6 +2684,7 @@ body, figure {
 div#captioned-gallery {
     width: 100%;
     overflow: hidden;
+    height: 500px;
 }
 
 figure.slider {
@@ -2627,7 +2703,7 @@ figure.slider figure {
 
 figure.slider img {
     width: 100%;
-    height: auto;
+    height: 500px;
 }
 
 figure.slider figure figcaption {
